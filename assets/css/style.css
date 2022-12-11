@@ -33,9 +33,9 @@ nav .mx-7 {
 }
 
 .banner-image {
-  background-image: url("https://greenweddingshoes.com/wp-content/uploads/2017/08/feelingapulia-styled-01.jpg");
+  background-image: url("../img/bg-wedding.jpg");
   border-bottom: 1px solid #000;
-  background-position: 0% 100%;
+  background-size: cover;
 }
 
 .pojok {
@@ -117,14 +117,13 @@ nav .mx-7 {
   width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
   body {
     background-color: lightblue;
   }
 
   .banner-image {
-    background-position: 60% 100%;
-    background-size: cover;
+    background-position: 10% 50%;
   }
   nav .mx-7 {
     margin: auto;
